@@ -1,0 +1,22 @@
+{
+	"domain": "web.loc",
+	"livereloadPort": 35730,
+	"views": {
+		"front": {
+			"less": {
+				"minify": true
+			},
+			"js": {
+				"minify": true,
+				"modules": [
+					"jQuery",
+					"Browser"
+				]
+			},
+			"templates": [
+				"app/views/front/*.php",
+				"public/*.php"
+			]
+		}
+	}
+}

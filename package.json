@@ -1,0 +1,22 @@
+{
+  "name": "G.Ivanov",
+  "description": "G.Ivanov default web template forked from Ivan Dokov",
+  "version": "1.0.0",
+  "author": {
+    "name": "Georgi Ivanov+",
+    "email": "development@dtailstudio.com",
+    "url": "http://givnaov.eu"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.4",
+    "grunt-autoprefixer": "^0.7.6",
+    "grunt-browser-sync": "^2.0.0",
+    "grunt-contrib-concat": "^0.4.0",
+    "grunt-contrib-cssmin": "^0.10.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-less": "^0.11.4",
+    "grunt-contrib-uglify": "^0.4.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-svgstore": "^0.2.7"
+  }
+}
