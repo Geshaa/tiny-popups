@@ -39,3 +39,6 @@ If you do not want to use LiveReload remove the following line of code from the 
 ```
 <script src="http://localhost:35729/livereload.js"></script>
 ```
+=======
+# tiny-popups
+Easy and lighweight custom popups
