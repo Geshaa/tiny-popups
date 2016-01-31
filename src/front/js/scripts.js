@@ -28,6 +28,10 @@
 			var elToOpen = $(this).attr('data-popup-open');
 			var timer    = null;
 
+			if ( $(this).attr('data-autoclose') === 'yes' ) {
+				$(this).closest('[data-popup]').removeClass('active');
+			}
+
 			_this.overlay.addClass( _this.overlayVisibleCLass );
 			$('[data-popup="'+elToOpen+'"]').addClass('active');
 

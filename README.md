@@ -13,6 +13,7 @@ All the functionality are based on data elements and there are no classes.
 	* You must add data-popup="popupName" on html element that will hold popup content. You can insert everything inside it.
 	* If you add data-off-timer="5000" on html element that will be popup, it will automaticaly close after value inside data-off-time. Value is in miliseconds.
 	* You must add data-popup-open="popupName" on element that will trigger openning of popup. "popupName" value must be the same as data-popup. If you use multiple popups, each of them need to have different name.
+	* If you add data-autoclose="yes" previously opened popups will be automaticaly closed if you open new ones.
 	* You must add data-popup-close="popupName" on button that will close popup. The rule about naming here is the same like previous point.
 	* If you add data-position="left" to button that will close the popup - it will be on the top left of popup. You can put "right" as well.
 
@@ -24,5 +25,8 @@ All the functionality are based on data elements and there are no classes.
 <!-- Delete me on production -->
 <script src="//localhost:35730/livereload.js"></script>
 ```
+
+### Installation for development
+	* Run ``` npm install ```
 
 =======
