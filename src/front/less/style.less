@@ -85,10 +85,12 @@ input, label, span {
 	z-index: -1;
 	opacity: 0;
 	transition: all .4s ease;
+	visibility: hidden;
 
 	&.active {
 		z-index: 21;
 		opacity: 1;
+		visibility: visible;
 	}
 
 	&[data-popup="addToCart"] {
